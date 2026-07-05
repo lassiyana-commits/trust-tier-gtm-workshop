@@ -43,25 +43,35 @@ The GenAI-accelerated version replaces each of those steps with a fast, traceabl
 
 ## Quick start
 
-1. Open [NotebookLM](https://notebooklm.google.com/), create a notebook titled **"WhatsApp Monetization Strategy"**, upload 2–3 sources, and run the market research prompt.
+### Step 1 — Market research in NotebookLM
 
-   ![Notebook setup](./screenshots/step-1-notebook-setup.png)
-   ![Prompt A response](./screenshots/step-2-prompt-a-response.png)
-   ![Save as note](./screenshots/step-3-save-as-note.png)
+Open [NotebookLM](https://notebooklm.google.com/), create a notebook titled **"WhatsApp Monetization Strategy"**, upload 2–3 sources, and run the market research prompt.
 
-2. In [Gemini](https://gemini.google.com/), paste your findings as context and generate 3 target personas.
+![Notebook setup](./screenshots/step-1-notebook-setup.png)
 
-   ![Persona prompt](./screenshots/step-4-persona-prompt.png)
+![Prompt A response](./screenshots/step-2-prompt-a-response.png)
 
-3. Propose the "WhatsApp Trust Score" feature and simulate a focus group against those personas.
+![Save as note](./screenshots/step-3-save-as-note.png)
 
-   ![Focus group simulation](./screenshots/step-5-focus-group-simulation.png)
+### Step 2 — Persona generation in Gemini
 
-4. Feed the transcript into a fresh Gemini prompt and get a friction matrix + Go/No-Go verdict.
+In [Gemini](https://gemini.google.com/), paste your findings as context and generate 3 target personas.
 
-   ![Go/No-Go analysis](./screenshots/step-6-go-no-go-analysis.png)
+![Persona prompt](./screenshots/step-4-persona-prompt.png)
 
-*(Screenshots above are placeholders — see [`screenshots/README.md`](screenshots/README.md) for exactly what to capture and the required filenames.)*
+### Step 3 — Feature stress-test in Gemini
+
+Propose the "WhatsApp Trust Score" feature and simulate a focus group against those personas.
+
+![Focus group simulation](./screenshots/step-5-focus-group-simulation.png)
+
+### Step 4 — Strategic synthesis in Gemini
+
+Feed the transcript into a fresh Gemini prompt and get a friction matrix + Go/No-Go verdict.
+
+![Go/No-Go analysis](./screenshots/step-6-go-no-go-analysis.png)
+
+*(See [`screenshots/README.md`](screenshots/README.md) for exactly what each screenshot should capture and the required filenames.)*
 
 Full prompts for every step are in [`prompts/strategic-prompts.md`](prompts/strategic-prompts.md); full worked-example outputs are in [`reference-outputs/`](reference-outputs/).
 
