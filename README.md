@@ -57,7 +57,7 @@ Open [NotebookLM](https://notebooklm.google.com/), create a notebook titled **"W
 
 ![Save as note](./screenshots/step-3-save-as-note.png)
 
-### Step 4 — Persona generation in Gemini
+### Step 4 — Propose the Feature and generate the focus groups discussion
 
 In [Gemini](https://gemini.google.com/), paste the saved Note contents as context and generate 3 target personas using the Persona creation prompt. Copy those personas as a Note in NotebookLM. Add the generated Note as a Source. Propose the "WhatsApp Trust Score" feature and simulate a focus group against those personas in NotebookLM.
 
