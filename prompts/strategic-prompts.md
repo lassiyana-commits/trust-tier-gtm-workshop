@@ -3,10 +3,17 @@
 Copy-paste-ready prompts for all four steps of the exercise, in order. Steps 1 happens in **NotebookLM**; Steps 2–4 happen in **Gemini**.
 
 ---
+## Step 1 — NotebookLM: Market Reserach Prompt
+```
+Find and feed the model 2-3 recent articles, PDFs, or financial summaries focusing on:
+CRED's business model and premium user demographics.
+WhatsApp Business API & fintech payments in India.
+Tip: Use Wikipedia entries or copy news text to Docs to upload.
 
-## Step 1 — NotebookLM: Market Research Prompt
+```
+## Step 2 — NotebookLM: Understand CRED's Behavioural Psycology Levers
 
-Run this in your NotebookLM workspace after uploading the CRED and WhatsApp/fintech sources (see [`docs/market-synthesis-playbook.md`](../docs/market-synthesis-playbook.md)):
+Run this in your NotebookLM workspace after selecting all the CRED and WhatsApp/fintech sources (see [`docs/market-synthesis-playbook.md`](../docs/market-synthesis-playbook.md)):
 
 ```
 Based on the uploaded sources, what are the top 3 behavioral
@@ -19,7 +26,7 @@ Pin the answer as a **Note** before moving on — see [`screenshots/README.md`](
 
 ---
 
-## Step 2 — Gemini: Persona Creation Prompt
+## Step 3 — Gemini: Persona Creation Prompt
 
 Open [gemini.google.com](https://gemini.google.com/) and paste in your NotebookLM findings as context, then run:
 
@@ -35,7 +42,7 @@ Premium Trust Tier'. Give them distinct financial habits.
 
 ---
 
-## Step 3 — Gemini: Feature Stress-Test Prompt
+## Step 4 — Gemini: Feature Stress-Test Prompt
 
 With the 3 personas still in context, propose the actual feature and simulate a focus group:
 
@@ -56,7 +63,7 @@ the 3 personas you just created. For each persona, tell me:
 
 ---
 
-## Step 4 — Gemini: Strategic Synthesis & Go/No-Go Prompt
+## Step 5 — Gemini: Strategic Synthesis & Go/No-Go Prompt
 
 Copy the full focus group transcript from Step 3 into a **new** Gemini prompt (fresh context helps it analyze rather than just continue the roleplay), then ask:
 
