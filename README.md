@@ -45,27 +45,31 @@ The GenAI-accelerated version replaces each of those steps with a fast, traceabl
 
 ### Step 1 — Market research in NotebookLM
 
-Open [NotebookLM](https://notebooklm.google.com/), create a notebook titled **"WhatsApp Monetization Strategy"**, upload 2–3 sources, and run the market research prompt.
+Open [NotebookLM](https://notebooklm.google.com/), create a notebook titled **"WhatsApp Monetization Strategy"**, click on Add Sources, and run the market research prompt.
 
 ![Notebook setup](./screenshots/step-1-notebook-setup.png)
 
+### Step 2 — What worked for CRED? Research done in NotebookLM
+
 ![Prompt A response](./screenshots/step-2-prompt-a-response.png)
+
+### Step 3 — Saving our research findings as a Note
 
 ![Save as note](./screenshots/step-3-save-as-note.png)
 
-### Step 2 — Persona generation in Gemini
+### Step 4 — Persona generation in Gemini
 
 In [Gemini](https://gemini.google.com/), paste your findings as context and generate 3 target personas.
 
 ![Persona prompt](./screenshots/step-4-persona-prompt.png)
 
-### Step 3 — Feature stress-test in Gemini
+### Step 5 — Feature stress-test in Gemini
 
 Propose the "WhatsApp Trust Score" feature and simulate a focus group against those personas.
 
 ![Focus group simulation](./screenshots/step-5-focus-group-simulation.png)
 
-### Step 4 — Strategic synthesis in Gemini
+### Step 6 — Strategic synthesis in Gemini
 
 Feed the transcript into a fresh Gemini prompt and get a friction matrix + Go/No-Go verdict.
 
