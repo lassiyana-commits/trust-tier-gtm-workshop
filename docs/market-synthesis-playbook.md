@@ -21,7 +21,7 @@ Find and feed the model **2–3 recent articles, PDFs, or financial summaries** 
 - **CRED's business model** and its premium user demographics.
 - **WhatsApp Business API & fintech payments in India** — adoption trends, regulatory context, payment volumes.
 
-**Tip:** If you don't have PDFs handy, Wikipedia entries work fine as a starting source, or copy relevant news text into a Google Doc and upload that. NotebookLM accepts PDFs, Google Docs, web URLs, and pasted text.
+**Tip:** If you don't have PDFs handy, Click on Add Sources and enter the Market Research Prompt to generate sources to be referenced on the Go.
 
 ## Step 3 — Prompt for insights
 
