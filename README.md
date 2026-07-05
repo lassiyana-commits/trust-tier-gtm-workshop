@@ -31,7 +31,7 @@ The GenAI-accelerated version replaces each of those steps with a fast, traceabl
 
 | Path | Purpose |
 |---|---|
-| [`docs/workshop-context.md`](docs/workshop-context.md) | The full role, scenario, and objectives for Workshop Module 1 |
+| [`docs/workshop-context.md`](docs/workshop-context.md) | The full role, scenario, and objectives for the Workshop  |
 | [`docs/market-synthesis-playbook.md`](docs/market-synthesis-playbook.md) | Exercise 1: setting up NotebookLM, sourcing material, running the research prompt |
 | [`docs/persona-generation-playbook.md`](docs/persona-generation-playbook.md) | Exercise 2: turning research into 3 synthetic personas |
 | [`docs/feature-stress-test-playbook.md`](docs/feature-stress-test-playbook.md) | Exercise 3: simulating a focus group against a concrete feature proposal |
